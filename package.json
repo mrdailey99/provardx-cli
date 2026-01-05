@@ -8,6 +8,7 @@
     "@provartesting/provardx-plugins-manager"
   ],
   "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.1",
     "@oclif/core": "^3.26.2",
     "@salesforce/core": "^6.5.1",
     "@salesforce/kit": "^3.0.15",
@@ -88,6 +89,9 @@
                 "description": "Compile the project."
               }
             }
+          },
+          "mcp": {
+            "description": "Commands to interact with the ProvarDX MCP server."
           }
         }
       }
